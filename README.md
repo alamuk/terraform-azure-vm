@@ -80,13 +80,6 @@ az login
 az account set --subscription "SUBSCRIPTION_ID_OR_NAME"
 /// az account set --subscription "5f1a4a88-78cb-4b61-8822-f47f137ee555" ///
 
-### 3. follow this 
-run code from this dir - 
-vm-terraform
-- terraform init
-- terraform plan -var-file="environments/dev/terraform.tfvars" 
-- terraform apply -var-file="environments/dev/terraform.tfvars" 
-
 ```
 
 
