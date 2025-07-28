@@ -1,0 +1,11 @@
+location       = "North Europe"
+rg_name        = "demo-rg"
+vnet_name      = "demo-vnet"
+subnet_name    = "demo-subnet"
+address_space  = ["10.0.0.0/16"]
+subnet_prefix  = ["10.0.1.0/24"]
+nsg_name       = "demo-nsg"
+nic_name       = "demo-nic"
+vm_name        = "demo-vm"
+admin_user     = "azureuser"
+admin_password = "ComplexPassword123!"

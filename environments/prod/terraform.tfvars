@@ -1,0 +1,12 @@
+location       = "West Europe"
+rg_name        = "prod-rg"
+vnet_name      = "prod-vnet"
+subnet_name    = "prod-subnet"
+address_space  = ["10.10.0.0/16"]
+subnet_prefix  = ["10.10.1.0/24"]
+nsg_name       = "prod-nsg"
+nic_name       = "prod-nic"
+vm_name        = "prod-vm"
+vm_size        = "Standard_D2s_v3"
+admin_user     = "adminuser"
+admin_password = "ProdSecurePass456!"
